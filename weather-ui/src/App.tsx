@@ -63,7 +63,7 @@ export default function App() {
           )}
         </section>
       )}
-      <p>Developed by Segun Ajiboye using React, Aws Lambda and SpringBoot</p>
+      <p>Developed using React, Aws Lambda and SpringBoot</p>
     </div>
   );
 }

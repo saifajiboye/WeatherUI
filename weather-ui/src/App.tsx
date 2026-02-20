@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { fetchWeather, type WeatherResponse } from './api/weather';
 import { useDebounce } from './hooks/useDebounce';
 import HourlyChart from './components/HourlyChart';
-import './app.css';
+import './App.css';
 
 export default function App() {
   const [query, setQuery] = useState('');
